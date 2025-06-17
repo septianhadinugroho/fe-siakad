@@ -50,8 +50,8 @@ export function LoginForm({ onLogin }: LoginFormProps) {
           <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100">
             <GraduationCap className="h-6 w-6 text-blue-600" />
           </div>
-          <CardTitle className="text-2xl font-bold">SIAKAD Login</CardTitle>
-          <CardDescription>Sistem Informasi Akademik Universitas</CardDescription>
+          <CardTitle className="text-2xl font-bold">Dashboard Login</CardTitle>
+          <CardDescription>Satu Data UIN New York</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

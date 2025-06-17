@@ -1,6 +1,6 @@
-# 🎓 SIAKAD - Sistem Informasi Akademik Universitas
+# Satu Data UIN New York
 
-Dashboard modern dan responsif untuk manajemen sistem informasi akademik dengan 3 role berbeda: Mahasiswa, Admin, dan Pemangku Kebijakan.
+Dashboard modern dan responsif yang mengintegrasikan seluruh informasi mahasiswa dalam satu sistem terpusat dengan 3 role berbeda: Mahasiswa, Admin, dan Pemangku Kebijakan.
 
 ![Dashboard Preview](https://img.shields.io/badge/Status-Active-brightgreen)
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
