@@ -414,8 +414,8 @@ CMD ["npm", "run", "preview"]
 
 ## 👥 Team
 
-- **UI/UX Designer** - [Designer Name](https://github.com/septianhadinugroho)
-- **FullStack Developer** - [Backend Dev](https://github.com/septianhadinugroho)
+- **UI/UX Designer** - [Septian Hadi Nugroho](https://github.com/septianhadinugroho)
+- **FullStack Developer** - [Septian Hadi Nugroho](https://github.com/septianhadinugroho)
 
 ## 🙏 Acknowledgments
 
@@ -428,6 +428,3 @@ CMD ["npm", "run", "preview"]
 ---
 
 ⭐ **Star project ini jika membantu!** ⭐
-
-Made with ❤️ by [Septian Hadi Nugroho]
-```
