@@ -24,7 +24,7 @@ export function LoginForm({ onLogin }: LoginFormProps) {
 
     // Dummy authentication
     const names = {
-      student: "Ahmad Rizki",
+      student: "Septian Hadi Nugroho",
       admin: "Dr. Sarah Admin",
       stakeholder: "Prof. Budi Santoso",
     }
@@ -50,8 +50,8 @@ export function LoginForm({ onLogin }: LoginFormProps) {
           <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100">
             <GraduationCap className="h-6 w-6 text-blue-600" />
           </div>
-          <CardTitle className="text-2xl font-bold">Dashboard Login</CardTitle>
-          <CardDescription>Satu Data UIN New York</CardDescription>
+          <CardTitle className="text-2xl font-bold">Login SIASEP</CardTitle>
+          <CardDescription>Sistem Informasi Akademik Satu Pintu</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

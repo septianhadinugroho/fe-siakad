@@ -45,9 +45,9 @@ export function AdminDashboard({ user, onLogout }: AdminDashboardProps) {
 
   // Dummy data
   const studentStats = [
-    { faculty: "Teknik", total: 1250, active: 1180, graduate: 70 },
-    { faculty: "Ekonomi", total: 980, active: 920, graduate: 60 },
-    { faculty: "Hukum", total: 750, active: 710, graduate: 40 },
+    { faculty: "Sains dan Teknologi", total: 1250, active: 1180, graduate: 70 },
+    { faculty: "Psikologi", total: 980, active: 920, graduate: 60 },
+    { faculty: "Ushuluddin", total: 750, active: 710, graduate: 40 },
     { faculty: "Kedokteran", total: 650, active: 630, graduate: 20 },
   ]
 
@@ -67,14 +67,14 @@ export function AdminDashboard({ user, onLogout }: AdminDashboardProps) {
   ]
 
   const recentStudents = [
-    { nim: "2024001001", name: "Andi Pratama", faculty: "Teknik", status: "Aktif", payment: "Lunas" },
-    { nim: "2024001002", name: "Sari Dewi", faculty: "Ekonomi", status: "Aktif", payment: "Belum Bayar" },
-    { nim: "2024001003", name: "Budi Santoso", faculty: "Hukum", status: "Cuti", payment: "Lunas" },
-    { nim: "2024001004", name: "Maya Sari", faculty: "Kedokteran", status: "Aktif", payment: "Cicilan" },
+    { nim: "1227050122", name: "Septian Hadi Nugroho", faculty: "Sains dan Teknologi", status: "Aktif", payment: "Lunas" },
+    { nim: "1227050113", name: "Refa Muhammad", faculty: "Dakwah dan Komunikasi", status: "Aktif", payment: "Belum Bayar" },
+    { nim: "1227050097", name: "Muqtada Hasby Abdalla", faculty: "Psikologi", status: "Cuti", payment: "Lunas" },
+    { nim: "1227050136", name: "Yusuf Ginanjar", faculty: "Kedokteran", status: "Aktif", payment: "Cicilan" },
   ]
 
   const courses = [
-    { code: "IF301", name: "Algoritma dan Struktur Data", credits: 3, students: 45, lecturer: "Dr. Ahmad" },
+    { code: "IF301", name: "Sistem Informasi", credits: 3, students: 45, lecturer: "Dr. Cepy Slamet S.T., M.Kom." },
     { code: "EK201", name: "Mikroekonomi", credits: 3, students: 60, lecturer: "Prof. Sari" },
     { code: "HK101", name: "Pengantar Hukum", credits: 2, students: 80, lecturer: "Dr. Budi" },
     { code: "FK401", name: "Anatomi", credits: 4, students: 35, lecturer: "Prof. Maya" },
